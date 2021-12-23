@@ -1,6 +1,5 @@
-import { pics } from "./utils/constants.js"
-import { Card } from "./component/Card.js";
-
+import { pics } from "../utils/constants.js"
+import { Card } from "../component/Card.js";
 const galleryGrid = document.querySelector('.gallery__grid');
 const ligthbox = document.querySelector('.ligthbox');
 const lightboxImage = ligthbox.querySelector('.ligthbox__image');
@@ -17,7 +16,7 @@ function imageActionsHandler(e) {
     likeHandler(target, classList);
   };
   commentIconHandler(classList);
-} ;
+};
 
 function lightBoxHandler(e) {
   lightboxImage.src = e.target.src;
@@ -55,7 +54,7 @@ function postCommentHandler(e) {
     e.target.closest('ul').prepend(cardItem.setCommentsInfo({ author: 'User', comment }));
     const element = document.getElementById(e.target.getAttribute('for'));
     e.target.closest('form').reset();  
-    // element.checked = false;
+    // element.checked = false;    //можно закрывать автоматически после отправки комментария закрывать секцию с комментами 
 };
 
 function hideLightboxHandler(e) {
