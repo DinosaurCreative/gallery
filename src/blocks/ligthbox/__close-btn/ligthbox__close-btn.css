@@ -1,0 +1,20 @@
+.ligthbox__close-btn {
+  position: absolute;
+  background: url(../../../images/Delete_item_white.svg) no-repeat;
+  background-size: cover;
+  outline: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  right: 40px;
+  top: 30px;
+  transition: all .2s ease-in-out;
+  opacity: .7;
+  cursor: pointer;
+  filter: drop-shadow(2px 1px 1px rgb(0, 0, 0));
+}
+
+.ligthbox__close-btn:hover {
+  transform: scale(1.2) rotate(90deg);
+  opacity: 1;
+}

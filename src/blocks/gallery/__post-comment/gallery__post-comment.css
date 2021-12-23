@@ -1,0 +1,25 @@
+.gallery__post-comment {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(../../../images/send.svg);
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size:contain;
+  transition: all .2s ease;
+  opacity: .5;
+  margin: auto;
+}
+
+.gallery__post-comment:hover {
+  opacity: .8;
+  transform: rotate(25deg);
+}
+
+.gallery__post-comment:active {
+  opacity: 1;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='./src/index.css'>
+  <title>Gallery</title>
+</head>
+<body class='body'>
+  <div class='gallery'>
+    <h1 class='gallery__title'>Галерея</h1>
+    <ul class='gallery__grid'>
+    </ul>
+  </div>
+  <div class='ligthbox'>
+    <figure class='lightbox__img-container'>
+      <button class='ligthbox__close-btn' type='button'></button>
+      <img class='ligthbox__image' src='' alt=''>
+      <figcaption class='ligthbox__title'></figcaption>
+    </figure>
+  </div>
+  <template class='cardTemplate'>
+    <li class='gallery__grid-row'>
+      <figure class='gallery__img-container'>
+        <img class='gallery__grid-img' src='' alt=''>
+        <button class='gallery__img-like' type='button'></button>
+          <label class='gallery__comment-btn' for='' checked>
+          </label>
+          <input class='gallery__comment-checkbox' id='' name='comments' type='checkbox'></input>
+        <ul class='gallery__comments-list' label='comments'>
+          <li class='gallery__comment-line'>
+            <form class='gallery__comment-form' type='submit'>
+              <textarea class='gallery__comment-area' type='text'></textarea>
+              <button class='gallery__post-comment' type='submit'></button>
+            </form></li>
+        </ul>
+        <figcaption class='gallery__img-figcaption'></figcaption>
+      </figure>
+    </li>
+  </template>
+  <template class='comment-template'>
+    <li class='gallery__comment-item'>
+      <h3 class=gallery__comment-author></h3>
+      <p class='gallery__comment'></p>
+    </li>
+  </template>
+<script src='./src/index.js' type='module'></script>
+</body>
+</html>

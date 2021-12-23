@@ -1,0 +1,16 @@
+.gallery__comments-list {
+  list-style-type: none;
+  position: absolute;
+  top: 237px;
+  left: 0;
+  right: 0;
+  padding: 0 6px 0;
+  z-index: 1;
+  color: #000;
+  background: rgba(255, 255, 255, 0.89);
+  overflow: scroll;
+  border-radius: 5px;
+  max-height: 210px;
+  height: 0;
+  transition: all .3s ease;
+}

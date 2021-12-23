@@ -1,0 +1,8 @@
+.gallery__comment {
+  height: fit-content;
+  margin: 0 auto auto 5px;
+  font-size: 13px;
+  justify-content: center;
+  overflow-wrap: break-word;
+  margin: 5px;
+}

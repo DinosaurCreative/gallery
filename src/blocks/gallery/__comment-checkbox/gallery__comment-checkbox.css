@@ -1,0 +1,15 @@
+.gallery__comment-checkbox {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
+.gallery__comment-checkbox:checked ~ .gallery__comments-list {
+  height: 100%;
+}
+
+.gallery__comment-checkbox:checked ~ .gallery__comment-btn {
+  background-image: url(../../../../images/Delete_item_white.svg);
+}

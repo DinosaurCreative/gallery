@@ -1,0 +1,7 @@
+.gallery__comment-line {
+  margin-bottom: 20px;
+}
+
+.gallery__comment-line:last-of-type {
+  margin: 10px auto 10px;
+}

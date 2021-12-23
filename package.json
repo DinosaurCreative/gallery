@@ -1,0 +1,21 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "description": "job inteview",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.65.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "build": "rm -rf dist && webpack"
+
+  },
+  "keywords": [
+    "tets"
+  ],
+  "author": "",
+  "license": "ISC"
+}

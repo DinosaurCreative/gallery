@@ -1,0 +1,29 @@
+@import url(./blocks/body/body.css);
+
+@import url(./blocks/gallery/gallery.css);
+@import url(./blocks/gallery/__title/gallery__title.css);
+@import url(./blocks/gallery/__img-like/gallery__img-like.css);
+@import url(./blocks/gallery/__img-like/_type/gallery__img-like_type_liked.css);
+@import url(./blocks/gallery/__img-figcaption/gallery__img-figcaption.css);
+@import url(./blocks/gallery/__img-container/gallery__img-container.css);
+@import url(./blocks/gallery/__grid/gallery__grid.css);
+@import url(./blocks/gallery/__grid-row/gallery__grid-row.css);
+@import url(./blocks/gallery/__grid-img/gallery__grid-img.css);
+@import url(./blocks/gallery/__comment-author/gallery__comment-author.css);
+@import url(./blocks/gallery/__comment-btn/gallery__comment-btn.css);
+@import url(./blocks/gallery/__comment/gallery__comment.css);
+@import url(./blocks/gallery/__comments-list.css/gallery__comments-list.css);
+@import url(./blocks/gallery/__comment-line/gallery__comment-line.css);
+@import url(./blocks/gallery/__comment-form/gallery__comment-form.css);
+@import url(./blocks/gallery/__comment-area/gallery__comment-area.css);
+@import url(./blocks/gallery/__post-comment/gallery__post-comment.css);
+@import url(./blocks/gallery/__comments-list.css/_type/gallery__comment-list_type_closed.css);
+@import url(./blocks/gallery/__comment-checkbox/gallery__comment-checkbox.css);
+@import url(./blocks/gallery/__comment-btn/_type/gallery__comment-btn_type_opened.css);
+
+@import url(./blocks/ligthbox/ligthbox.css);
+@import url(./blocks/ligthbox/__title/ligthbox__title.css);
+@import url(./blocks/ligthbox/__img-container/lightbox__img-container.css);
+@import url(./blocks/ligthbox/__image/ligthbox__image.css);
+@import url(./blocks/ligthbox/_opened/ligthbox_opened.css);
+@import url(./blocks/ligthbox/__close-btn/ligthbox__close-btn.css);

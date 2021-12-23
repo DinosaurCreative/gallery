@@ -1,0 +1,13 @@
+.gallery__comment-area {
+  border: none;
+  background: transparent;
+  outline: none;
+  height: 100%;
+  width: calc(100% - 50px);
+  resize: none;
+  height: 40px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 5px 15px 5px;
+  line-height: 15px;
+}
